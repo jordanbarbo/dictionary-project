@@ -1,10 +1,15 @@
+import React from "react";
 import './App.css';
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Hello</header>
+        <header className="App-header">Dictionary</header>
+        <main>
+          <Dictionary />
+        </main>
         <footer>
           This project was coded by{" "}
           <a href="https://www.linkedin.com/in/groundjordan/" target="_blank">
