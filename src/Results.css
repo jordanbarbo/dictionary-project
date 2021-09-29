@@ -1,0 +1,27 @@
+h2 {
+  font-size: 32px;
+}
+
+.Results {
+  display: inline-block;
+}
+
+.Left {
+  float: left;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 24% 85% 59% 12% / 3% 12% 6% 2%;
+  background: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  box-shadow:  0px 5px 14px #b0b0b0;
+}
+
+.Right {
+  float: right;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  border-radius: 83% 42% 26% 68% / 10% 3% 0% 3%;
+  background: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  box-shadow:  0px 5px 14px #b0b0b0;
+}
