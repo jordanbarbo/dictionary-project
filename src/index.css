@@ -1,5 +1,13 @@
 body {
   background-color: #81aa4b;
+  background-image:
+   repeating-linear-gradient(-45deg, transparent 0 100px, rgba(216, 31, 31, 0.555) 20px 120px),
+   repeating-linear-gradient(45deg, transparent 0 100px, rgba(216, 31, 31, 0.555) 20px 120px),
+   repeating-linear-gradient(-45deg, transparent 0 250px, rgba(255, 255, 255, 0.8) 10px 260px),
+   repeating-linear-gradient(45deg, transparent 0 250px, rgba(255, 255, 255, 0.8) 10px 260px),
+   repeating-linear-gradient(-45deg, transparent 0 260px, rgba(255, 96, 215, 0.8) 30px 290px),
+   repeating-linear-gradient(45deg, transparent 0 260px, rgba(255, 96, 215, 0.8) 30px 290px);
+  background-attachment: fixed;
   margin: 0;
   font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
