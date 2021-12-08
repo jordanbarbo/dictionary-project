@@ -1,9 +1,14 @@
 body {
-  background: #f0e8fc;
+  background-color: #81aa4b;
+  background-image:
+    repeating-linear-gradient(-45deg, transparent 0 100px, rgba(216, 31, 31, 0.555) 20px 120px),
+    repeating-linear-gradient(45deg, transparent 0 100px, rgba(216, 31, 31, 0.555) 20px 120px),
+    repeating-linear-gradient(-45deg, transparent 0 250px, rgba(255, 255, 255, 0.8) 10px 260px),
+    repeating-linear-gradient(45deg, transparent 0 250px, rgba(255, 255, 255, 0.8) 10px 260px),
+    repeating-linear-gradient(-45deg, transparent 0 260px, rgba(255, 96, 215, 0.8) 30px 290px),
+    repeating-linear-gradient(45deg, transparent 0 260px, rgba(255, 96, 215, 0.8) 30px 290px);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,4 +1,8 @@
-.Book {
-  border: 5px;
-  border-color: #9b67db;
+.App-header {
+  background-color: #FFF82A;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
 }

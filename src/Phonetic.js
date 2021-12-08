@@ -4,8 +4,8 @@ import Audio from "./Audio";
 export default function Phonetic(props) {
   return (
     <div className="Phonetic">
-      <Audio audio={props.phonetic.audio} />
       {props.phonetic.text}
+      <Audio audio={props.phonetic.audio} />
     </div>
-  )
+  );
 }

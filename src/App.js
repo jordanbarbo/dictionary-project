@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="Book">
-          <header className="App-header">Dictionary</header>
+        <div>
+          <header className="App-header">"Every time I have to look up a word in the dictionary, I'm delighted." - Vivienne Westwood</header>
           <main>
-            <Dictionary defaultKeyword="Dictionary" />
+            <Dictionary defaultKeyword="delighted" />
           </main>
         </div>
         <footer>

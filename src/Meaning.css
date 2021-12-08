@@ -1,0 +1,11 @@
+.Meaning h4 {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.Meaning .example {
+  font-size: 16px;
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 10px;
+}
