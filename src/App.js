@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <div className="container">
         <div>
-          <header className="App-header">"Every time I have to look up a word in the dictionary, I'm delighted." - Vivienne Westwood</header>
+          <header className="App-header">
+              "Every time I have to look up a word in the dictionary, I'm
+              delighted." - Vivienne Westwood
+          </header>
           <main>
             <Dictionary defaultKeyword="delighted" />
           </main>
